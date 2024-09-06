@@ -6,7 +6,8 @@ on:
       - main
       - feature/**
   pull_request:
-    branches: [main]
+    branches:
+      - main
 
 env:
   NODE_VERSION: "20"
