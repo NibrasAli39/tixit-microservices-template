@@ -1,0 +1,23 @@
+{
+  "name": "tixit-microservices-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "deploy": "serverless deploy",
+    "deploy:prod": "serverless deploy --stage prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@serverless/typescript": "^3.38.0",
+    "@types/node": "^22.5.4",
+    "esbuild": "^0.20.2",
+    "serverless": "^4.2.5",
+    "serverless-esbuild": "^1.52.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
